@@ -29,7 +29,8 @@
         android:layout_gravity="bottom"
         android:clickable="false"
         app:elevation="4dp"
-        app:fabAlignmentMode="center" />
+        app:fabAnimationMode="scale"
+        />
 
     <FrameLayout
         android:layout_width="match_parent"
@@ -55,6 +56,6 @@
         app:layout_anchor="@id/bottombar_main"
         app:rippleColor="@android:color/white"
         app:tint="@android:color/white"
-        android:visibility="gone"/>
+        android:visibility="visible"/>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
